@@ -9,11 +9,14 @@
 
 /*header
 ================*/
-@media screen and (max-width:1300px){
+@media screen and (max-width:1000px){
     header{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+    header h1{
+        color: aqua;
     }
 }
 header{
@@ -52,7 +55,7 @@ span{
 ============*/
 
 .big-picture{
-    background-image: url(/resource/images/main.jpg);
+    background-image: url(./resource/images/main.jpg);
     min-height: 90vh;
     background-position: center;
     background-size: cover;
@@ -129,7 +132,7 @@ button{
 }
  
 .club{
-    background-image: url(/resource/images/article-image-1.jpg);
+    background-image: url(./resource/images/article-image-1.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -139,7 +142,7 @@ button{
 }
 
 .actus{
-    background-image: url(/resource/images/article-image-2.jpg);
+    background-image: url(./resource/images/article-image-2.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
