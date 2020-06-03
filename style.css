@@ -51,11 +51,12 @@ span{
 
 /*picture
 ============*/
-@media screen and (max-width:680px){
-    .text-picture h2{
+@media screen and (max-width:690px){
+    h2{
         font-size: 30px;
     }
 }
+
 .big-picture{
     background-image: url(./resource/images/main.jpg);
     min-height: 90vh;
@@ -99,7 +100,6 @@ button{
     .logo{
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
     }
 }
 
@@ -127,6 +127,15 @@ button{
 
  /*3ème section
  ================*/
+@media screen and (max-width:600px){
+    .two-picture{
+        display: flex;
+        flex-direction: column;
+    }
+    .club, .actus{
+        height: 200px;
+    }
+}
 
 .two-picture{
     background: #e2d9d9;
