@@ -268,8 +268,11 @@ footer p{
 }
 
 @media screen and (max-width:690px){
-    header h2{
-        font-size: 30px;
+    .text-picture h1{
+        font-size: 35px;
+    }
+    .text-picture h2{
+        font-size: 40px;
     }
 }
 
