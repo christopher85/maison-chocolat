@@ -132,8 +132,8 @@ button{
         display: flex;
         flex-direction: column;
     }
-    .club, .actus{
-        height: 200px;
+    #actus{
+        height: 20%;
     }
 }
 
@@ -202,6 +202,14 @@ button{
 
 /*4ème section
 ============*/
+@media screen and (max-width:600px){
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
 .contact-we{
     height: 500px;
 }
