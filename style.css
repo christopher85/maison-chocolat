@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*header
+================*/
+@media screen and (max-width:1300px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1220px;
+    margin: auto;
+}
+
+header h1{
+    color: black;
+    font-size: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 700px;
+    height: 80px;
+    
+}
+a{
+    font-family: 'acme', sans-serif;
+    font-size: 20px;
+    color: rgb(85, 81, 81);
+    text-transform: uppercase;
+}
+span{
+    color: rgb(146, 29, 255);
+    font-family: 'acme',sans-serif;
+    font-size: 40px;
+}
+
+/*picture
+============*/
+
+.big-picture{
+    background-image: url(/resource/images/main.jpg);
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 190px;
+    
+}
+
+.text-picture h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(255, 253, 253);
+}
+.text-picture h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+button{
+    padding: 10px 20px;
+    margin-top: 70px;
+    font-size: 30px;
+    background: rgb(238, 27, 220);
+    color:white;
+    border-radius: 5px;
+    border: 0;
+}
+ /* 2ème section
+ ===============*/
+
+ .logo-3{
+     margin-bottom: 60px;
+ }
+ .logo{
+     display: flex;
+     justify-content: space-around;
+     width: 1300px;
+     margin: auto;
+ }
+ .quality, .ecologie, .equitable{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+
+ .quality h3, .ecologie h3, .equitable h3{
+     margin: 50px 0 20px 0;
+     text-transform: uppercase;
+ }
+
+ /*3ème section
+ ================*/
+
+.two-picture{
+    background: #e2d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.two-picture h4{
+    font-size: 20px;
+}
+.two-picture p{
+    font-size: 12px;
+}
+ 
+.club{
+    background-image: url(/resource/images/article-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.actus{
+    background-image: url(/resource/images/article-image-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.club-h4, .actus-h4{
+    background: rgba(255, 255, 255, 0.9);
+    height: 300px;
+    width: 150px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.club hr{
+    height: 1px;
+    width: 100px;
+    background-color: rgb(7, 250, 7);
+    border: 0;
+}
+.actus hr{
+    height: 1px;
+    width: 100px;
+    background-color: rgb(7, 250, 7);
+    border: 0;
+}
+
+.club-h4 button, .actus-h4 button{
+    font-size: 15px;
+    margin: 0;
+}
+
+/*4ème section
+============*/
+.contact-we{
+    height: 500px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contact h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 50px 0 20px 0;
+
+}
+
+.contact hr{
+    height: 1px;
+    width: 500px;
+    margin-bottom: 30px;
+    border: 0;
+    background-color:  rgb(6, 248, 248);
+}
+.contact p{
+    color: rgb(124, 124, 124);
+    padding-bottom: 60px;
+}
+.imput{
+    display: flex;
+    justify-content: space-around;
+}
+
+#lname{
+    height: 30px;
+    width: 160px;
+}
+.ok{
+    height: 30px;
+    width: 30px;
+    background: rgb(238, 27, 220);
+    color: white;
+    border: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+label{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #817e7e;
+    font-weight: 200;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+
+/*footer
+==================*/
+
+footer{
+    background: black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer h1{
+    color: white;
+}
+
+footer p{
+    color: rgb(77, 77, 77);
+    font-size: 12px;
+}
