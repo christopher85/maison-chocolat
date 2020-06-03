@@ -9,14 +9,6 @@
 
 /*header
 ================*/
-@media screen and (max-width:1067px){
-    header{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    
-}
 header{
     display: flex;
     justify-content: space-around;
@@ -51,11 +43,6 @@ span{
 
 /*picture
 ============*/
-@media screen and (max-width:690px){
-    h2{
-        font-size: 30px;
-    }
-}
 
 .big-picture{
     background-image: url(./resource/images/main.jpg);
@@ -93,15 +80,8 @@ button{
     border-radius: 5px;
     border: 0;
 }
- /* 2ème section
- ===============*/
-
-@media screen and (max-width:850px){
-    .logo{
-        display: flex;
-        flex-direction: column;
-    }
-}
+/* 2ème section
+===============*/
 
 .logo-3 {
     margin-bottom: 60px;
@@ -125,17 +105,8 @@ button{
     text-transform: uppercase;
 }
 
- /*3ème section
- ================*/
-@media screen and (max-width:600px){
-    .two-picture{
-        display: flex;
-        flex-direction: column;
-    }
-    #actus{
-        height: 20%;
-    }
-}
+/*3ème section
+================*/
 
 .two-picture{
     background: #e2d9d9;
@@ -150,7 +121,7 @@ button{
 .two-picture p{
     font-size: 12px;
 }
- 
+
 .club{
     background-image: url(./resource/images/article-image-1.jpg);
     background-position: center;
@@ -202,13 +173,6 @@ button{
 
 /*4ème section
 ============*/
-@media screen and (max-width:600px){
-    form{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-}
 
 .contact-we{
     height: 500px;
@@ -225,7 +189,7 @@ button{
     text-transform: uppercase;
     font-size: 40px;
     margin: 50px 0 20px 0;
-
+    
 }
 
 .contact hr{
@@ -287,4 +251,51 @@ footer h1{
 footer p{
     color: rgb(77, 77, 77);
     font-size: 12px;
+}
+
+
+/*média queries
+===================*/
+
+
+@media screen and (max-width:1067px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:690px){
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px){
+    .two-picture{
+        display: flex;
+        flex-direction: column;
+    }
+    .actus{
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:600px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        margin: 10px 20px;
+    }
 }
