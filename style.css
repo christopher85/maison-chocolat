@@ -9,21 +9,19 @@
 
 /*header
 ================*/
-@media screen and (max-width:1000px){
+@media screen and (max-width:1067px){
     header{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
-    header h1{
-        color: aqua;
-    }
+    
 }
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1220px;
+    
     margin: auto;
 }
 
@@ -53,7 +51,11 @@ span{
 
 /*picture
 ============*/
-
+@media screen and (max-width:680px){
+    .text-picture h2{
+        font-size: 30px;
+    }
+}
 .big-picture{
     background-image: url(./resource/images/main.jpg);
     min-height: 90vh;
@@ -93,26 +95,35 @@ button{
  /* 2ème section
  ===============*/
 
- .logo-3{
-     margin-bottom: 60px;
- }
- .logo{
-     display: flex;
-     justify-content: space-around;
-     width: 1300px;
-     margin: auto;
- }
- .quality, .ecologie, .equitable{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     text-align: center;
- }
+@media screen and (max-width:850px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
 
- .quality h3, .ecologie h3, .equitable h3{
-     margin: 50px 0 20px 0;
-     text-transform: uppercase;
- }
+.logo-3 {
+    margin-bottom: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.quality, .ecologie, .equitable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quality h3, .ecologie h3, .equitable h3 {
+    margin: 50px 0 20px 0;
+    text-transform: uppercase;
+}
 
  /*3ème section
  ================*/
